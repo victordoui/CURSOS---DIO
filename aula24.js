@@ -1,0 +1,4 @@
+function createDataBase (databaseName){
+
+    
+}
