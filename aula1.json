@@ -1,0 +1,24 @@
+let invoice = {
+nome: "Victor"
+idade : 30
+produtos {
+    0: ["mouse razer", 30.00],
+    1: [ "teclado mecanico", 200.00],
+    2: ["monitor", 700.00]
+}
+
+
+}
+generateInvoice(invoice)
+
+function generateInvoice(invoice){
+
+    console.log (` o comprador é ${invoice.nome}`)
+    console.log (`a idade é ${invoice.idade}`)
+    console.log ("-----------------" )
+
+    console.log (`O produto é ${invoice.produtos[0]}` )
+   
+ 
+
+}
